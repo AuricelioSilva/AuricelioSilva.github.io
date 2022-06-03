@@ -218,11 +218,11 @@ a:hover {
     width: 90%;
 }
 
-.card {
+.card1 {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0 0;
-    background-image: url('./room.jpg');
+    background-image:url('./GitHub.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,11 +235,48 @@ a:hover {
     transition: 0.3s;
 }
 
+.card2 {
+    height: 300px;
+    width: 400px;
+    margin: 3rem 0 0 0;
+    background-image:url('./code.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.5);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card3 {
+    height: 300px;
+    width: 400px;
+    margin: 3rem 0 0 0;
+    background-image:url('./discord.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.5);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
 .card-text {
     width: 40%;
+    font-size: 20px;
     font-family: sans-serif;
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
+    text-align: justify;
 }
 
 .card-wrapper {
@@ -279,20 +316,83 @@ a:hover {
     transition: 0.3s;
 }
 
-.card:hover {
+.card1:hover  {
     filter: unset;
 }
 
-.card:hover > .card-wrapper::before {
+.card2:hover  {
+    filter: unset;
+}
+
+.card3:hover  {
+    filter: unset;
+}
+
+.card1:hover > .card-wrapper::before {
     height: 250px;
     width: 350px;
     opacity: 1;
 }
 
-.card:hover > .card-wrapper p {
+.card2:hover > .card-wrapper::before {
+    height: 250px;
+    width: 350px;
+    opacity: 1;
+}
+
+.card3:hover > .card-wrapper::before {
+    height: 250px;
+    width: 350px;
+    opacity: 1;
+}
+
+.card1:hover > .card-wrapper p {
     opacity: 1;
     visibility: visible;
     font-size: 14px;
+}
+
+.card2:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+.card3:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+
+/* SOBRE */
+
+.title {
+    color: #505050;
+    text-align: center;
+    font-size: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    max-width: 900px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #505050;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 /* FOOTER */
@@ -308,6 +408,10 @@ a:hover {
     align-items: center;
     animation: backgroundTransition 8s ease-in-out infinite;
     position: relative;
+}
+
+a {
+    color: #ffffff;
 }
 
 
@@ -346,3 +450,5 @@ a:hover {
         width: 190px;
     }
 }
+
+
