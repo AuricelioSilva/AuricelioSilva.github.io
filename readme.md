@@ -17,7 +17,7 @@ Foi usado na construção do projeto:
 
 # Pre-requisitos
 
-Ter instalado em sua máquina uma IDE:
+Ter instalado em sua máquina uma IDE :
 
 
 
